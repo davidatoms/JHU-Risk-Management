@@ -56,7 +56,6 @@ for i in range(num_simulations):
 
 # Showing the plot after the simulations are finished
 plt.show()
-plt.savefig('mcdice.png')
 
 # Averaging win probability and end balance
 overall_win_probability = sum(win_probability) / len(win_probability)
