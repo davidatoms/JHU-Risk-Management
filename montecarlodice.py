@@ -61,5 +61,5 @@ plt.show()
 overall_win_probability = sum(win_probability) / len(win_probability)
 overall_end_balance = sum(end_balance) / len(end_balance)
 # Displaying the averages
-print("Average win probability after " + str(num_simulations) + "runs: " + str(overall_win_probability))
+print("Average win probability after " + str(round(num_simulations,2)) + " runs: " + str(overall_win_probability))
 print("Average ending balance after " + str(num_simulations) + " runs: $" + str(overall_end_balance))
